@@ -74,7 +74,6 @@ export default function Transformation() {
 
   return (
     <div className="px-4 sm:px-10 lg:px-20 py-9">
-      {/* Header Section */}
       <div className="space-y-[10px]">
         <div
           className="text-center text-[14px] font-normal leading-[21px] tracking-[1.5px]"
@@ -100,17 +99,14 @@ export default function Transformation() {
         </div>
       </div>
 
-      {/* Cards Section */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[24px] mt-8">
         {blogPosts.map((post, index) => (
           <div key={index} className="bg-white p-[16px] flex flex-col gap-4">
-            {/* Image */}
             <img
               src={post.image}
               alt={post.title}
               className="w-full h-[240px] object-cover"
             />
-            {/* Date */}
             <div
               className="text-[14px] font-semibold leading-[20px] text-left text-[#667085]"
               style={{
@@ -122,7 +118,6 @@ export default function Transformation() {
               {post.date}
             </div>
 
-            {/* Title */}
             <div
               className="text-[18px] sm:text-[22px] font-bold leading-[32px] text-left text-[#1A1A1A]"
               style={{
@@ -134,7 +129,6 @@ export default function Transformation() {
               {post.title}
             </div>
 
-            {/* Detail */}
             <div
               className="text-[14px] sm:text-[15px] font-normal leading-[24px] text-left text-[#667085]"
               style={{
@@ -146,7 +140,6 @@ export default function Transformation() {
               {post.detail}
             </div>
 
-            {/* Buttons Section */}
             <div className="flex gap-4">
               {post.buttons.map((button, buttonIndex) => (
                 <button

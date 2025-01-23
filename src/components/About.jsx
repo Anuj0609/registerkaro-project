@@ -3,7 +3,6 @@ import React from "react";
 function About() {
   return (
     <div className="pl-1 md:pl-[70px] py-[40px] md:py-[68px] flex flex-col md:flex-row relative">
-      {/* Left Section */}
       <div className="flex-1">
         <div className="font-inter text-[12px] md:text-[14px] font-normal leading-[21px] tracking-[1.5px] text-left text-[#EB8D15]">
           WELCOME TO REGISTERKARO.IN
@@ -28,7 +27,6 @@ function About() {
         </button>
       </div>
 
-      {/* Right Section */}
       <div className="flex-1 mt-8 md:mt-0 flex justify-center">
         <img
           src="./A-group.png"
@@ -37,7 +35,6 @@ function About() {
         />
       </div>
 
-      {/* Decorative Borders */}
       <img
         src="./A-border2.png"
         className="hidden md:block absolute bottom-[70px] right-0"

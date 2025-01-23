@@ -62,7 +62,6 @@ export default function Says() {
           </div>
         </div>
 
-        {/* Card Section */}
         <div className="flex flex-wrap justify-center gap-4 lg:flex-nowrap overflow-x-auto">
           {cards
             .slice(currentIndex, currentIndex + cardsPerPage)
@@ -97,7 +96,6 @@ export default function Says() {
             ))}
         </div>
 
-        {/* Pagination Circles */}
         <div className="flex justify-center space-x-2 mt-6">
           {[...Array(totalPages)].map((_, index) => (
             <div

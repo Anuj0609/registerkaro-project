@@ -28,7 +28,7 @@ function App() {
       <Services/>
       <About/>
 /      <Video/>
-      {/* <Clients/> */}
+      <Clients/>
       <Process/>
       <Transformation/>
       <Says/>

@@ -39,7 +39,6 @@ function Services() {
 
   return (
     <div className="bg-[#FAFAFA] pt-10 px-6 md:px-[70px] flex justify-center flex-col">
-      {/* Header */}
       <div className="font-inter text-[#EB8D15] text-[14px] font-normal leading-[21px] tracking-[1.5px] text-center">
         WELCOME TO REGISTERKARO.IN
       </div>
@@ -47,7 +46,6 @@ function Services() {
         Explore Our Services
       </div>
 
-      {/* Services Grid */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10">
         {serviceItems.map((item, index) => (
           <div
@@ -69,7 +67,6 @@ function Services() {
         ))}
       </div>
 
-      {/* Footer Button */}
       <button className="bg-[#1C4670] md:py-4 md:px-8 py-2 px-4 mx-auto rounded-md mb-14 text-white mt-6">
         See All Services
       </button>

@@ -36,7 +36,6 @@ export default function Hero() {
 
   return (
     <div className="pl-5 md:pl-[70px] md:py-14 flex flex-col md:flex-row relative bg-[linear-gradient(113.91deg,_#FFFFFF_8%,_rgba(255,_240,_220,_0.67)_28%,_rgba(237,_246,_255,_0.7)_36%)] pt-10">
-      {/* Left Section */}
       <div className="md:space-y-6 w-full md:max-w-[1300px] space-y-4">
         <div className="flex flex-row items-center gap-1">
           <FaStar className="text-yellow-500" />
@@ -91,7 +90,6 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* Right Section */}
       <div>
         <div className="md:absolute md:top-5 md:right-0 space-y-4 md:space-y-[18px] py-5 md:py-0">
           <div className="bg-white border px-5 py-3 md:py-4 rounded-l-xl font-inter font-semibold text-sm md:text-[14px] leading-5 md:leading-[18px] tracking-[0.4px]">

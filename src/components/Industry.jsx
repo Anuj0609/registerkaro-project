@@ -25,7 +25,6 @@ export default function Industry() {
           Welcome to your new digital reality. Now.
         </div>
       </div>
-      {/* Input and Button */}
       <div className="flex flex-col sm:flex-row items-center sm:items-start sm:space-y-0 sm:space-x-0 w-full sm:w-auto">
         <input
           type="email"
@@ -42,7 +41,6 @@ export default function Industry() {
           Submit
         </button>
       </div>
-      {/* Features */}
       <div className="flex flex-col sm:flex-row justify-between space-y-6 sm:space-y-0 sm:space-x-10">
         <div className="flex flex-row gap-4 justify-center sm:justify-start">
           <img src="./Industry1.png" className="w-5 h-5" />

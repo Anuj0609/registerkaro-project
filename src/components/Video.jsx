@@ -4,7 +4,6 @@ export default function Video() {
   return (
     <div className="bg-[#1C4670]">
       <div className="px-4 md:px-[70px] pt-10 md:pt-14 flex flex-col md:flex-row md:space-x-[92px] space-y-8 md:space-y-0">
-        {/* Text Section */}
         <div className="flex flex-col pt-4 pb-8 md:pb-11">
           <div
             className="text-left font-inter font-bold text-[24px] md:text-[34px] leading-[32px] md:leading-[40px] tracking-[-0.015em] text-white pb-4 md:pb-5"
@@ -26,7 +25,6 @@ export default function Video() {
             vulputate pellentesque a diam tincidunt apis dui.
           </div>
 
-          {/* Explore Ideas Section */}
           <div className="flex flex-row space-x-3 pb-6">
             <div>
               <img
@@ -58,7 +56,6 @@ export default function Video() {
             </div>
           </div>
 
-          {/* Bring Ideas Section */}
           <div className="flex flex-row space-x-3">
             <div>
               <img
@@ -91,7 +88,6 @@ export default function Video() {
           </div>
         </div>
 
-        {/* Video Section */}
         <div className="w-full md:w-[640px] h-auto md:h-[420px] flex justify-center md:justify-end pb-12">
           <img
             src="./V-y.png"
