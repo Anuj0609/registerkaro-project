@@ -137,7 +137,7 @@ function Clients() {
         </div>
       </div>
 
-      <div className="mt-16 relative grid grid-cols-2 sm:grid-cols-4 lg:block lg:w-[1492px] lg:h-[353px] gap-4 lg:gap-0 mx-auto h-96">
+      <div className="mt-16 relative grid grid-cols-2 sm:grid-cols-4 lg:block lg:w-[1492px] lg:h-[353px] gap-4 lg:gap-0 mx-auto h-96 overflow-hidden ">
         {clientImages.map((image, index) => (
           <img
             key={index}
