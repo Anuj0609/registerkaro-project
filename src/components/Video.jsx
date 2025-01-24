@@ -27,11 +27,7 @@ export default function Video() {
 
           <div className="flex flex-row space-x-3 pb-6">
             <div>
-              <img
-                src="./V1.png"
-                className=" md:w-14 md:h-14"
-                alt="Icon 1"
-              />
+              <img src="./V1.png" className=" md:w-14 md:h-14" alt="Icon 1" />
             </div>
             <div>
               <div
@@ -58,11 +54,7 @@ export default function Video() {
 
           <div className="flex flex-row space-x-3">
             <div>
-              <img
-                src="./V2.png"
-                className=" md:w-14 md:h-14"
-                alt="Icon 2"
-              />
+              <img src="./V2.png" className=" md:w-14 md:h-14" alt="Icon 2" />
             </div>
             <div>
               <div
@@ -89,11 +81,17 @@ export default function Video() {
         </div>
 
         <div className="w-full md:w-[640px] h-auto md:h-[420px] flex justify-center md:justify-end pb-12">
-          <img
-            src="./V-y.png"
-            alt="Video Thumbnail"
-            className="w-[90%] md:w-full h-auto"
-          />
+          <a
+            href="https://www.youtube.com/watch?v=your_video_id"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="./V-y.png"
+              alt="Video Thumbnail"
+              className="w-[90%] md:w-full h-auto"
+            />
+          </a>
         </div>
       </div>
     </div>

@@ -15,28 +15,41 @@ export default function Manage() {
         <div>Get the App</div>
 
         <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 items-center justify-center sm:justify-start">
-          <button className="flex flex-row items-center bg-white text-black py-1 px-3 rounded space-x-2">
-            <img src="./Apple.png" alt="Apple logo" />
-            <div>
-              <div className="font-poppins text-[10px] sm:text-[11px] font-normal leading-[19.42px] text-left">
-                Get it on
+          <a
+            href="https://apps.apple.com/app/id1234567890"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="flex flex-row items-center bg-white text-black py-1 px-3 rounded space-x-2">
+              <img src="./Apple.png" alt="Apple logo" />
+              <div>
+                <div className="font-poppins text-[10px] sm:text-[11px] font-normal leading-[19.42px] text-left">
+                  Get it on
+                </div>
+                <div className="font-poppins text-[12px] sm:text-[14px] font-semibold leading-[22px] text-left">
+                  App Store
+                </div>
               </div>
-              <div className="font-poppins text-[12px] sm:text-[14px] font-semibold leading-[22px] text-left">
-                App Store
+            </button>
+          </a>
+
+          <a
+            href="https://play.google.com/store/apps/details?id=com.yourapp"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="flex flex-row items-center bg-white text-black py-1 px-3 rounded space-x-2">
+              <img src="Android.png" alt="Android logo" />
+              <div>
+                <div className="font-poppins text-[10px] sm:text-[11px] font-normal leading-[19.42px] text-left">
+                  Get it on
+                </div>
+                <div className="font-poppins text-[12px] sm:text-[14px] font-semibold leading-[22px] text-left">
+                  Android Store
+                </div>
               </div>
-            </div>
-          </button>
-          <button className="flex flex-row items-center bg-white text-black py-1 px-3 rounded space-x-2">
-            <img src="Android.png" alt="Android logo" />
-            <div>
-              <div className="font-poppins text-[10px] sm:text-[11px] font-normal leading-[19.42px] text-left">
-                Get it on
-              </div>
-              <div className="font-poppins text-[12px] sm:text-[14px] font-semibold leading-[22px] text-left">
-                Android Store
-              </div>
-            </div>
-          </button>
+            </button>
+          </a>
         </div>
       </div>
 

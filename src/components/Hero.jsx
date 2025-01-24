@@ -81,12 +81,21 @@ export default function Hero() {
           <button className="bg-[#1C4670] py-2 px-3 md:py-4 md:px-12 font-inter font-extrabold text-xs md:text-[16px] leading-5 md:leading-[20px] tracking-[0.02] text-white rounded-[4px]">
             Talk An Expert
           </button>
-          <div className="flex flex-row items-center gap-2">
-            <img src="./H-youtube.png" className="md:w-6 md:h-6 w-3 h-3" />
+          <a
+            href="https://www.youtube.com/watch?v=yourvideoid" // Replace with your YouTube video or channel URL
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex flex-row items-center gap-2"
+          >
+            <img
+              src="./H-youtube.png"
+              className="md:w-6 md:h-6 w-3 h-3"
+              alt="YouTube"
+            />
             <div className="font-inter font-semibold text-xs md:text-[16px] leading-5 md:leading-[26px]">
               See how it works
             </div>
-          </div>
+          </a>
         </div>
       </div>
 

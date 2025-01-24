@@ -27,7 +27,7 @@ function App() {
       <TrustedBySection />
       <Services/>
       <About/>
-/      <Video/>
+     <Video/>
       <Clients/>
       <Process/>
       <Transformation/>
