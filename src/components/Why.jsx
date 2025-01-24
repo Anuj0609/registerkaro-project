@@ -20,7 +20,7 @@ export default function Why() {
       title: "Guaranteed Satisfaction",
       detail:
         "We ensure that you stay 100% satisfied with our offered services",
-      bgColor: "bg-[b#EDF3FF]", 
+      bgColor: "bg-[#EDF3FF]", 
     },
     {
       image: "./W4.png",
