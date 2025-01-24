@@ -6,7 +6,7 @@ export default function Why() {
       image: "./W1.png",
       title: "Confidential & Safe",
       detail: "All your private information is safe with us",
-      bgColor: "bg-[#FEF3EF]", 
+      bgColor: "bg-[#FEF3EF]",
     },
     {
       image: "./W2.png",
@@ -20,13 +20,13 @@ export default function Why() {
       title: "Guaranteed Satisfaction",
       detail:
         "We ensure that you stay 100% satisfied with our offered services",
-      bgColor: "bg-[#EDF3FF]", 
+      bgColor: "bg-[#EDF3FF]",
     },
     {
       image: "./W4.png",
       title: "Expert CA/CS Assistance",
       detail: "Prompt support from our in-house expert professionals",
-      bgColor: "bg-[#FBF1FB]", 
+      bgColor: "bg-[#FBF1FB]",
     },
     {
       image: "./W1.png",
@@ -37,9 +37,9 @@ export default function Why() {
   ];
 
   return (
-    <div className="px-[70px]">
-      <div className="grid grid-cols-4 gap-4 p-8">
-        <div className="col-span-2 flex flex-col gap-4">
+    <div className="md:px-[70px] ">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 p-8">
+        <div className="col-span-1 sm:col-span-2 lg:col-span-2 flex flex-col gap-4">
           <div className="text-[14px] font-normal leading-[21px] tracking-[1.5px] text-[#EB8D15]">
             About Register Karo
           </div>
@@ -76,10 +76,10 @@ export default function Why() {
             <p className="text-sm text-[#6B7280]">{item.detail}</p>
           </div>
         ))}
-        <div className="col-span-1"></div> 
+        <div className="col-span-1"></div>
         {items.slice(2).map((item, index) => (
           <div
-            key={index + 2} 
+            key={index + 2}
             className={`${item.bgColor} shadow-md rounded-md p-6 flex flex-col items-center text-center`}
             style={{
               width: "288.11px",
